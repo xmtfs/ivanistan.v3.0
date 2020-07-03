@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script type="text/javascript" src="resources/js/main.js"></script>
+    <script type="text/javascript" src="resources/js/currency.js"></script>
+    <link rel="stylesheet" href="resources/css/style.css" />
+    <link rel="i " type="image/png" href="resources/images/favicon.png" />
+    <div>
+        <title>Republic of Ivanistan</title>
+    </div>
+  </head>
+  <body>
+   <header>
+       <nav id="#nav"></nav>
+   </header>
+   <main role="main" class="container">
+    <div class="text-center">
+        <div class="jumbotron">
+        <h1 class="font-weight-bold">National bank</h1>
+        <p>National bank is the main controller of our national currency the Ivanistan dinar(IID) and the regulatory body of all banks operating in side of our country,also the regulation,distribution of our national credit card the IIC.</p>
+        <p>Our exchange rate is 1 IID to 0.5 EUR.</p>
+        <div class="container">
+          <div class="row">
+          <div class="col-sm" name="calc">
+            <h3>Calculate IID to EUR</h3>
+            <br>
+            <h5>Input amount of IID</h5>
+            <input type="number" id="num1">
+            <br>
+            <h5>Output in EUR</h5>
+            <p id="res" name="result"></p>
+            <button type="button" class="btn btn-primary" onclick="calculateEURtoIID()">Calculate</button>
+          </div>
+          <div  class="col">
+            <div class="col" name="calc">
+              <h3>Calculate EUR to IID</h3>
+              <br>
+              <h5>Input amount of EUR</h5>
+              <input type="number" id="num2">
+              <br>
+              <h5>Output in IID</h5>
+              <p id="res2" name="result"></p>
+              <button type="button" class="btn btn-primary" onclick="calculateIIDtoEUR()">Calculate</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+</div>
+
+
+
+   </main>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
