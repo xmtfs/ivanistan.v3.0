@@ -1,0 +1,22 @@
+{
+  "name": "ivanistan.v3.0",
+  "version": "1.0.0",
+  "description": "Npm install for ivanistan site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xmtfs/ivanistan.v3.0.git"
+  },
+  "keywords": [
+    "site"
+  ],
+  "author": "The president",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xmtfs/ivanistan.v3.0/issues"
+  },
+  "homepage": "https://github.com/xmtfs/ivanistan.v3.0#readme"
+}
